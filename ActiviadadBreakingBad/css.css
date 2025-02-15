@@ -1,0 +1,130 @@
+.imagenfondo{
+    background-image: url(breaking_b/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url(breaking_b/Breaking\ Bad.ttf);
+}
+.img1{
+    display: block;
+    margin: auto;
+}
+.img2{
+    display: block;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+    border-color: brown;
+    border-width: 10px;
+    border-style: outset;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.texto{
+    font-family: 'MiFuente', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+.espacio{
+    height: 140px;
+}
+.formulario{
+    font-family: Helvetica,Arial,sans-serif;
+    width: 700px;
+}
+.divform{
+    height: 70px;
+}
+#Tabla{
+    background-color: #637124;
+    text-align: center;
+}
+#table{
+    background-color: #2B2C24;
+    margin: auto;
+    width: 880px;
+    height: 350px;
+    border-spacing: 8px;
+}
+#table td, #table tr{
+    margin: auto;
+    height: 50px;
+    width: 70px;
+    border: none;
+}
+.titulo{
+    background-color: #B8DD12;
+    font-size: 4rem;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: black;
+}
+.titulo2{
+    font-size: 4rem;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.siglas{
+    font-size: 25px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: bold;
+
+}
+.verde{
+    background-color: #B8DA24;
+}
+.morado{
+    background-color: #AB8ECE;
+}
+.blanco{
+    background-color: #EFF7C8;
+}
+.verdeoscuro{
+    background-color: #89A419;
+}
+.verdemasoscuro{
+    background-color: #637125;
+}
+.verdeclaro{
+    background-color: #C5E347;
+}
+.gris{
+    background-color: #BCC49E;
+}
+.verdemasclaro{
+    background-color: #D6EC72;
+}
+.verdefeo{
+    background-color: #828D54;
+}
+.amarillo{
+    background-color: #C2C627;
+}
+#table2{
+    background-color: #2B2C24;
+    margin: auto;
+    width: 680px;
+    height: 120px;
+    border-spacing: 8px;
+}
+
+#table2 td, #table tr{
+    margin: auto;
+    border: none;
+}
+.imgtabla2{
+    width: 70px;
+    height: 60px;
+}
+.imgtable{
+    width: 60px;
+    height: 60px;
+}

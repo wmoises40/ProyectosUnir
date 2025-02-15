@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario.html</title>
+    <link rel="shortcut icon" href="breaking bad-1/breaking bad/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body class="imagenfondo">
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="get" class="formulario" name="Breaking Bad | Que comience el juego!">
+        <fieldset>
+            <legend>Breaking Bad | Que comience el juego!</legend>
+            <div class="divform"></div>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre: <input type="text" name="nombre" placeholder="Indica tu nombre">
+                <br>Apellidos: <input type="text" name="apellidos" placeholder="Indica tu apellido">
+                <br>Dirección Postal: <input type="text" name="dirección postal" placeholder="Calle, Número, Piso, Codigo postal">
+                <br>Ciudad: <input type="text" name="Ciudad" placeholder="Indica tu Ciudad">
+                <br>DNI: <input type="text" name="DNI" placeholder="Indica tu DNI">
+                <br>Correo Electrónico: <input type="text" name="email" placeholder="Indica tu email">
+            </fieldset>
+            <div class="divform"></div>
+            <fieldset>
+                <legend>Sexo y Fecha de Nacimiento</legend>
+                <input type="radio" name="Sexo" value="Hombre">Hombre
+                <br><input type="radio" name="Sexo" value="Mujer">Mujer
+                <br>Fecha: <input type="date" name="Fecha" id="">
+            </fieldset>
+            <div class="divform"></div>
+            <fieldset>
+                <legend>Selecciona un Personaje</legend>
+                <br>Personajes:
+                <select name="Personajes" id="">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White</option>
+                    <option value="3">Saul Goodman</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6">Otros Personajes</option>
+                </select>
+            </fieldset>
+            <div class="divform"></div>
+            <fieldset>
+                <legend>Caja de Comentarios</legend>
+                <textarea name="Comentarios" id="" placeholder="Escribe aquí" maxlength="10"></textarea>
+            </fieldset>
+            <div class="divform"></div>
+            <form action="raul.rodriguez@proeducaglobal.com" method="post">
+                <input type="file" name="adjunto" accept=".pdf" multiple>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </form>
+        </fieldset>
+    </form>
+</body>
+</html>
