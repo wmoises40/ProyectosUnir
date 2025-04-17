@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="img/arcade.png" type="image/x-icon">
+    <title>StreetFighterUNIR</title>
+</head>
+<body>
+    <h1>TO LIVE IS TO FIGHT TO FIGHT IS TO LIVE!</h1>
+    <br>
+    <table class="tabla">
+        <tr>
+            <td colspan="4" id="titulotabla">STREET FIGHTER</td>
+        </tr>
+        <tr>
+            <td class="personajes">KEN <br><img src="img/ken.png" alt="ken"></td>
+            <td class="personajes">CHUN LI <br><img src="img/ChunLi.png" alt="chun li"></td>
+            <td class="personajes">ZANGIEF <br><img src="img/Zangief.png" alt="Zangief"></td>
+            <td class="personajes">DHALSIN <br><img src="img/Dhalsim.png" alt="Dhalsim"></td>
+        </tr>
+        <tr>
+            <td class="personajes">RYU <br><img src="img/Ryu.png" alt="Ryu"></td>
+            <td class="personajes">E HONDA <br><img src="img/EHonda.png" alt="EHonda"></td>
+            <td class="personajes">BLANKA <br><img src="img/Blanka.png" alt="Blanka"></td>
+            <td class="personajes">GUILLE <br><img src="img/Guille.png" alt="Guille"></td>
+        </tr>
+        <tr>
+            <td class="personajes">THAWK <br><img src="img/THawk.png" alt="THawk"></td>
+            <td class="personajes">FEILONG <br><img src="img/Feilong.png" alt="Feilong"></td>
+            <td class="personajes">DEE JAN <br><img src="img/DeeJay.png" alt="DeeJay"> </td>
+            <td class="personajes">CAMMY <br><img src="img/Cammy.png" alt="Cammy"></td>
+        </tr>
+        <tr>
+            <td class="personajes">BALROG <br><img src="img/Balrog.png" alt="Balrog"></td>
+            <td class="personajes">VEGA <br><img src="img/Vega.png" alt="Vega"></td>
+            <td class="personajes">SAGAT <br><img src="img/Sagat.png" alt="Sagat"></td>
+            <td class="personajes">M BISON <br><img src="img/MBison.png" alt="MBison"></td>
+        </tr>
+    </table>
+    <br>
+    <h2>FORMULARIO DE INCRIPCIÓN PARA JUGAR A STREETFIGHTER</h2>
+    <br>
+    <form action="mailto:pepito@pepe.com">
+        <fieldset class="fieldset">
+            <legend class="tituloform">DATOS PERSONALES</legend>
+            <label for="nombre">Nombre:</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="apellidos">Apellidos:</label>
+            <br>
+            <input type="text">
+            <br>
+            <label for="Direccion">Dirección Postal:</label>
+            <input type="text" placeholder="Calle"> <input type="text" placeholder="N°"> <input type="text" placeholder="Piso">
+            <input type="text" placeholder="Cod.Postal"> <input type="text" placeholder="Ciudad">
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend class="tituloform">SEXO USUARIO</legend>
+            <input type="radio" name="Hombre" value="sexo">Hombre
+            <br>
+            <input type="radio" name="Mujer" value="sexo">Mujer
+            </select>
+        </fieldset>
+        <fieldset class="fieldset">
+            <label for="Fecha">Fecha Nacimiento:</label>
+            <input type="datetime-local" name="Fecha" id="">
+        </fieldset>
+        <fieldset class="fieldset">
+            <LEGENd class="tituloform">PERSONAJES</LEGENd>
+            <label for="personajes">Selecciona el personaje:</label>
+            <input type="text">
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend class="tituloform">COMENTARIOS</legend>
+            <input type="text" id="Comentarios">
+        </fieldset>
+        <div id="espacio"></div>
+        <div class="botones">
+            <button type="submit">ENVIAR</button>
+            <button type="reset">BORRAR</button>
+        </div>
+    </form>
+</body>
+</html>

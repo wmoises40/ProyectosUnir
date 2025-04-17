@@ -1,0 +1,104 @@
+:root{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'Mifuente';
+    src: url(../font/street.otf);
+}
+
+h1, h2, .tabla{
+    font-family: 'Mifuente';
+}
+
+.tabla{
+    margin: auto;
+    height: 800px;
+    width: 600px;
+    background-color: black;
+    border-width: 10px;
+    border-style: outset;
+    border-color: rgb(237, 175, 5);
+    border-radius: 10px;
+
+}
+
+tr, td {
+    margin: auto;
+    text-align: center;
+    width: 40px;
+    height: 45px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+h1{ 
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: crimson;
+    font-size: 28px;
+}
+
+#titulotabla{
+    font-size: 40px;
+    color: whitesmoke;
+    background-image: url(../img/fondocabecera.jpg);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+.personajes{
+    color: darkorange;
+    font-size: 18px;
+    font-style: bold;
+}
+.tituloform{
+    font-family: 'Mifuente';
+    color: darkorange;
+}
+form{
+    margin: auto;
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+}
+
+#Comentarios{
+    width: 530px;
+    height: 290px;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-left: 65px;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: crimson;
+    font-family: 'Mifuente';
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid crimson;
+    font-size: 18px;
+
+}
+#espacio{
+    height: 40px;
+}
+.fieldset{
+    padding: 20px;
+}
